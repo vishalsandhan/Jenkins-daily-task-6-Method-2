@@ -7,6 +7,6 @@ public class CalculatorTest {
     @Test
     public void testAdd() {
         Calculator calculator = new Calculator();
-        Assert.assertEquals(calculator.add(5, 3), 8, "Addition result is incorrect");
+        Assert.assertEquals(calculator.add(2, 7), 7, "Addition sum is not correct");
     }
 }
